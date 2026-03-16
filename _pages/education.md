@@ -9,5 +9,5 @@ redirect_from:
 
 ## Academic Background
 
-- **Degree:** M.Sc. in Data Science
-- **Degree:** B.Sc. in Computer Science and Engineering
+- M.Sc. in Data Science  
+- B.Sc. in Computer Science and Engineering  
