@@ -15,7 +15,8 @@ Azure AI and Data professional with experience in analytics, machine learning wo
 
 ## Education
 
-- **B.Sc. in Computer Science and Engineering** - North South University (NSU)
+- **M.Sc. in Data Science**
+- **B.Sc. in Computer Science and Engineering**
 
 ## Experience
 

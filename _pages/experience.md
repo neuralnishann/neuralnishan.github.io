@@ -1,14 +1,11 @@
 ---
 layout: archive
-title: "Experience"
+title: "Professional Experience"
 permalink: /experience/
 author_profile: true
 redirect_from:
   - /resume
 ---
-
-## Professional Experience
-
 ### HeadGear Limited - Data Analyst
 - **Location:** Remote (Dhaka, Bangladesh)
 - **Type:** Full-time

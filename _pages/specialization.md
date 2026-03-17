@@ -1,13 +1,11 @@
 ---
 layout: archive
-title: "Specializations"
+title: "Online Courses and Specializations"
 permalink: /specialization/
 author_profile: true
 redirect_from:
   - /resume
 ---
-# Online Courses and Specializations
-
 | Completion Date | Specialization Name | Verification Link | Download Link | Organization Name | Format |
 | --------------- | ------------------- | ---------------- | ------------- | ----------------- | ------ |
 | 2026 | [Cybersecurity Master Annual Program 2026: Module 3: Hardening Active Directory Infrastructure](https://www.credential.net/3fc77c6d-cecb-4930-90db-e4c3c140f8f2#acc.hlRwkFeS) | [Verify here](https://www.credential.net/3fc77c6d-cecb-4930-90db-e4c3c140f8f2#acc.hlRwkFeS) | [Download Certificate](https://www.credential.net/3fc77c6d-cecb-4930-90db-e4c3c140f8f2#acc.hlRwkFeS) | CQURE Academy | Online |

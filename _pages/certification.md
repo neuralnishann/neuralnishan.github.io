@@ -1,13 +1,11 @@
 ---
 layout: archive
-title: "Certifications"
+title: "Trainings, Applied Skills and Certifications"
 permalink: /certification/
 author_profile: true
 redirect_from:
   - /resume
 ---
-## Certification Summary
-
 ### Microsoft Trainings
 
 | Training Name | Verification | Certificate | Date Obtained | Expiration |
