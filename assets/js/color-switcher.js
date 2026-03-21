@@ -5,7 +5,9 @@
 
 (function () {
   const STORAGE_KEY = 'color-theme';
-  const DEFAULT_THEME = 'default';
+  const STORAGE_VERSION_KEY = 'color-theme-version';
+  const DEFAULT_THEME = 'neon';
+  const STORAGE_VERSION = 'neon-default-v1';
 
   // Color theme definitions
   const colorThemes = {
@@ -189,6 +191,7 @@
     // Store preference
     try {
       localStorage.setItem(STORAGE_KEY, themeName);
+      localStorage.setItem(STORAGE_VERSION_KEY, STORAGE_VERSION);
       console.log('Theme saved:', themeName);
     } catch (e) {
       console.error('Error saving theme preference:', e);
@@ -943,8 +946,14 @@
     let savedTheme = DEFAULT_THEME;
     try {
       const stored = localStorage.getItem(STORAGE_KEY);
+      const storedVersion = localStorage.getItem(STORAGE_VERSION_KEY);
       if (stored && colorThemes[stored]) {
+        // Migrate legacy visitors who still have the old auto-saved default theme.
+        if (!storedVersion && stored === 'default') {
+          savedTheme = DEFAULT_THEME;
+        } else {
         savedTheme = stored;
+        }
       }
     } catch (e) {
       console.error('Error reading theme preference:', e);

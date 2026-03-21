@@ -1,29 +1,59 @@
 User-agent: *
-Allow: /
-Disallow: /_site/
-Disallow: /.git/
-Disallow: /.github/
-Disallow: /assets/js/
-Disallow: /assets/css/
-Disallow: /_includes/
-Disallow: /_layouts/
-Disallow: /_sass/
-Disallow: /_data/
-Disallow: /files/
+Disallow: /
 
-# Crawl delay to prevent excessive crawling
-Crawl-delay: 2
+User-agent: GPTBot
+Disallow: /
 
-# Sitemap location
-Sitemap: https://neuralnishan.github.io/sitemap.xml
+User-agent: ChatGPT-User
+Disallow: /
 
-# Allow search engine indexing of specific content
-User-agent: Googlebot
-Allow: /
+User-agent: CCBot
+Disallow: /
 
-User-agent: Bingbot
-Allow: /
+User-agent: ClaudeBot
+Disallow: /
 
-# LinkedIn bot
-User-agent: LinkedInBot
-Allow: /
+User-agent: Claude-Web
+Disallow: /
+
+User-agent: anthropic-ai
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: PerplexityBot
+Disallow: /
+
+User-agent: Perplexity-User
+Disallow: /
+
+User-agent: Applebot-Extended
+Disallow: /
+
+User-agent: Bytespider
+Disallow: /
+
+User-agent: Diffbot
+Disallow: /
+
+User-agent: Amazonbot
+Disallow: /
+
+User-agent: OAI-SearchBot
+Disallow: /
+
+User-agent: Meta-ExternalAgent
+Disallow: /
+
+User-agent: Meta-ExternalFetcher
+Disallow: /
+
+User-agent: ImagesiftBot
+Disallow: /
+
+User-agent: omgili
+Disallow: /
+
+User-agent: omgilibot
+Disallow: /

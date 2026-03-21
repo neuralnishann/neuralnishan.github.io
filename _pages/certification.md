@@ -10,75 +10,74 @@ redirect_from:
 
 | Training Name | Verification | Certificate | Date Obtained | Expiration |
 |---------------|--------------|-------------|---------------|--------|
-|Azure: Migrate and Modernize - Titan - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/ffe8697d-e0fd-4185-abeb-ef6ea8ba6df3/public_url) | [View](/files/microsoft/mslogos/azure-migrate-and-modernize-titan.png) | 2026-03-15 | No Expiration |
-|Implement with impact: Implement Microsoft Security Copilot - Proficient - (Microsoft GCPS)| [Verify](https://www.credly.com/badges/aab78c6f-487a-4efc-8024-b3c50928ac80/public_url) | [View](/files/microsoft/mslogos/implement-with-impact-implement-microsoft-security-.png) | 2026-03-14 | No Expiration |
-|Implement with impact: Elevate user productivity with Microsoft 365 Copilot (End user training) - Proficient - (Microsoft GCPS)| [Verify](https://www.credly.com/badges/e43dca48-a311-4664-b0c0-dd4c1db70801) | [View](/files/microsoft/mslogos/implement-with-impact-elevate-user-productivity-wit.png) | 2026-03-09 | No Expiration |
-|Pro Code with Copilot Studio - Proficient (Microsoft GCPS)| [Verify](https://www.credly.com/badges/ec1138d7-4739-4d18-af95-007877a85ded/public_url) | [View](/files/microsoft/mslogos/pro-code-with-copilot-studio-proficient.png) | 2026-03-05 | No Expiration |
-|Sell with confidence: Unify and grow your business with Microsoft Fabric - Proficient (Microsoft GCPS)| [Verify](https://www.credly.com/badges/e67acc4a-273d-46cd-8fcb-b515b8b0562e/public_url) | [View](/files/microsoft/mslogos/sell-with-confidence-unify-and-grow-your-business-w.png) | 2026-03-01 | No Expiration |
-|Azure: Migrate and Modernize - Proficient (Microsoft GCPS) | [Verify](https://www.credly.com/badges/b2e6b42e-b926-4d5b-8b87-04ea6b185448/public_url) | [View](/files/microsoft/mslogos/azure-migrate-and-modernize-proficient.png) | 2026-02-27 | No Expiration |
-|AI Workforce-Titan -​ Sales Ready Titan (Microsoft GCPS) | [Verify](https://www.credly.com/badges/c8b4203c-c223-46cf-92b9-c00270735b0a/public_url) | [View](/files/microsoft/mslogos/ai-workforce-titan.png) | 2026-02-25 | No Expiration |
-|M365 Copilot + Agents -​ Sales Proficient (Microsoft GCPS) | [Verify](https://www.credly.com/badges/c6ee752c-b500-472d-8294-4a279b64698c/public_url) | [View](/files/microsoft/mslogos/m365-copilot-agents.2.png) | 2026-02-25 | No Expiration |
-|Simplify agent development with Copilot Studio -​ Project Ready Proficient (Microsoft GCPS) | [Verify](https://www.credly.com/badges/021bebd6-82b6-4c49-bef6-552c0dfa2270/public_url) | [View](/files/microsoft/mslogos/simplify-agent-development-with-copilot-studio-prof.png) | 2026-02-23 | No Expiration |
-| M365 Copilot + Agents - Technical Proficient (Microsoft  GCPS) | [Verify](https://www.credly.com/badges/1943b6fc-cc0d-43e7-a771-5b526fb7a13d) | [View](/files/microsoft/mslogos/m365-copilot-agents.png) | 2026-02-21 | No Expiration |
+|Azure: Migrate and Modernize - Titan - (Microsoft GCPS) | [Verify](/credential-access/azure-migrate-and-modernize-titan-microsoft-gcps-verify/) | [View](/credential-access/azure-migrate-and-modernize-titan-microsoft-gcps-view/) | 2026-03-15 | No Expiration |
+|Implement with impact: Implement Microsoft Security Copilot - Proficient - (Microsoft GCPS)| [Verify](/credential-access/implement-with-impact-implement-microsoft-security-copilot-proficient-microsoft-gcps-verify/) | [View](/credential-access/implement-with-impact-implement-microsoft-security-copilot-proficient-microsoft-gcps-view/) | 2026-03-14 | No Expiration |
+|Implement with impact: Elevate user productivity with Microsoft 365 Copilot (End user training) - Proficient - (Microsoft GCPS)| [Verify](/credential-access/implement-with-impact-elevate-user-productivity-with-microsoft-365-copilot-end-user-training-proficient-microsoft-gcps-verify/) | [View](/credential-access/implement-with-impact-elevate-user-productivity-with-microsoft-365-copilot-end-user-training-proficient-microsoft-gcps-view/) | 2026-03-09 | No Expiration |
+|Pro Code with Copilot Studio - Proficient (Microsoft GCPS)| [Verify](/credential-access/pro-code-with-copilot-studio-proficient-microsoft-gcps-verify/) | [View](/credential-access/pro-code-with-copilot-studio-proficient-microsoft-gcps-view/) | 2026-03-05 | No Expiration |
+|Sell with confidence: Unify and grow your business with Microsoft Fabric - Proficient (Microsoft GCPS)| [Verify](/credential-access/sell-with-confidence-unify-and-grow-your-business-with-microsoft-fabric-proficient-microsoft-gcps-verify/) | [View](/credential-access/sell-with-confidence-unify-and-grow-your-business-with-microsoft-fabric-proficient-microsoft-gcps-view/) | 2026-03-01 | No Expiration |
+|Azure: Migrate and Modernize - Proficient (Microsoft GCPS) | [Verify](/credential-access/azure-migrate-and-modernize-proficient-microsoft-gcps-verify/) | [View](/credential-access/azure-migrate-and-modernize-proficient-microsoft-gcps-view/) | 2026-02-27 | No Expiration |
+|AI Workforce-Titan -â€‹ Sales Ready Titan (Microsoft GCPS) | [Verify](/credential-access/ai-workforce-titan-sales-ready-titan-microsoft-gcps-verify/) | [View](/credential-access/ai-workforce-titan-sales-ready-titan-microsoft-gcps-view/) | 2026-02-25 | No Expiration |
+|M365 Copilot + Agents -â€‹ Sales Proficient (Microsoft GCPS) | [Verify](/credential-access/m365-copilot-agents-sales-proficient-microsoft-gcps-verify/) | [View](/credential-access/m365-copilot-agents-sales-proficient-microsoft-gcps-view/) | 2026-02-25 | No Expiration |
+|Simplify agent development with Copilot Studio -â€‹ Project Ready Proficient (Microsoft GCPS) | [Verify](/credential-access/simplify-agent-development-with-copilot-studio-project-ready-proficient-microsoft-gcps-verify/) | [View](/credential-access/simplify-agent-development-with-copilot-studio-project-ready-proficient-microsoft-gcps-view/) | 2026-02-23 | No Expiration |
+| M365 Copilot + Agents - Technical Proficient (Microsoft  GCPS) | [Verify](/credential-access/m365-copilot-agents-technical-proficient-microsoft-gcps-verify/) | [View](/credential-access/m365-copilot-agents-technical-proficient-microsoft-gcps-view/) | 2026-02-21 | No Expiration |
 
 ### Microsoft Applied Skills
 
 | Code | Applied Skill | Verification | Certificate | Date Obtained | Expiration |
 |------|---------------|--------------|-------------|---------------|------------|
-| APL| Microsoft Applied Skills: Develop generative AI apps with Azure OpenAI and Semantic Kernel | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/6e0732caf858ba45) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Develop generative AI apps with Azure OpenAI and Semantic Kernel.jpg) | 2026-03-06 | No Expiration |
-| APL| Microsoft Applied Skills: Build a generative AI chat app | [Verify](https://learn.microsoft.com/en-us/users/SMGazzaliArafatNishan-4645/credentials/713A77F93EB74C51) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Build a generative AI chat app.jpg) | 2026-03-05 | No Expiration |
-| APL| Microsoft Applied Skills: Get started with Azure management tasks | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/14849adc91bbb9a8) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with Azure management tasks.jpg) | 2026-03-01 | No Expiration |
-| APL| Microsoft Applied Skills: Create an AI agent | [Verify](https://learn.microsoft.com/en-us/users/SMGazzaliArafatNishan-4645/credentials/DD8BA1F8FB604C68) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Create an AI agent.jpg) | 2026-02-28 | No Expiration |
-| APL| Microsoft Applied Skills: Get started with cloud security and monitoring tasks | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/bdc0a2d92d552614) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with cloud security and monitoring tasks.png) | 2026-02-28 | No Expiration |
-| APL| Microsoft Applied Skills: Streamline business workflows with AI chat | [Verify](https://learn.microsoft.com/api/credentials/share/en-us/SMGazzaliArafatNishan-4645/8F23F60DCDC3164?sharingId=A489942037851738) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Streamline business workflows with AI chat.png) | 2026-02-28 | No Expiration |
-| APL-6501 | Microsoft Applied Skills: Generate reports with AI research agents | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/a6a869507d924b65) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Generate reports with AI research agents.png) | 2026-01-09 | No Expiration |
-| DP-604 | Microsoft Applied Skills: Implement a data science and machine learning solution with Microsoft Fabric | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/bfe40a3e91369fb1) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Implement a data science and machine learning solution with Microsoft Fabric.png) | 2024-12-24 | No Expiration |
-| AI-3002 | Microsoft Applied Skills: Create an intelligent document processing solution with Azure AI Document Intelligence | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/51e23d9da965588f) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Create an intelligent document processing solution with Azure AI Document Intelligence.png) | 2024-12-18 | No Expiration |
-| AI-3003 | Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/a88fadd020e0d31b) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Build a natural language processing solution with Azure AI Language.png) | 2024-12-15 | No Expiration |
+| APL| Microsoft Applied Skills: Develop generative AI apps with Azure OpenAI and Semantic Kernel | [Verify](/credential-access/apl-verify/) | [View](/credential-access/apl-view/) | 2026-03-06 | No Expiration |
+| APL| Microsoft Applied Skills: Build a generative AI chat app | [Verify](/credential-access/apl-verify-2/) | [View](/credential-access/apl-view-2/) | 2026-03-05 | No Expiration |
+| APL| Microsoft Applied Skills: Get started with Azure management tasks | [Verify](/credential-access/apl-verify-3/) | [View](/credential-access/apl-view-3/) | 2026-03-01 | No Expiration |
+| APL| Microsoft Applied Skills: Create an AI agent | [Verify](/credential-access/apl-verify-4/) | [View](/credential-access/apl-view-4/) | 2026-02-28 | No Expiration |
+| APL| Microsoft Applied Skills: Get started with cloud security and monitoring tasks | [Verify](/credential-access/apl-verify-5/) | [View](/credential-access/apl-view-5/) | 2026-02-28 | No Expiration |
+| APL| Microsoft Applied Skills: Streamline business workflows with AI chat | [Verify](/credential-access/apl-verify-6/) | [View](/credential-access/apl-view-6/) | 2026-02-28 | No Expiration |
+| APL-6501 | Microsoft Applied Skills: Generate reports with AI research agents | [Verify](/credential-access/apl-6501-verify/) | [View](/credential-access/apl-6501-view/) | 2026-01-09 | No Expiration |
+| DP-604 | Microsoft Applied Skills: Implement a data science and machine learning solution with Microsoft Fabric | [Verify](/credential-access/dp-604-verify/) | [View](/credential-access/dp-604-view/) | 2024-12-24 | No Expiration |
+| AI-3002 | Microsoft Applied Skills: Create an intelligent document processing solution with Azure AI Document Intelligence | [Verify](/credential-access/ai-3002-verify/) | [View](/credential-access/ai-3002-view/) | 2024-12-18 | No Expiration |
+| AI-3003 | Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language | [Verify](/credential-access/ai-3003-verify/) | [View](/credential-access/ai-3003-view/) | 2024-12-15 | No Expiration |
 
 ### Microsoft Certifications
 
 | Code | Certification | Verification | Certificate | Date Obtained | Expiration |
 |------|---------------|--------------|-------------|---------------|------------|
-| AB-100 | Microsoft Certified: Agentic AI Business Solutions Architect | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/fc6c7570a7490575) | [View](/files/microsoft/microsoft_azure__agentic_ai_business_solutions_architect_expert_ab_100_certificate.png) | 2026-01-08 | 2027-01-08 |
-| MS-900 | Microsoft 365 Certified: Fundamentals | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/1aaa1818f8168b1) | [View](/files/microsoft/microsoft_365_certified_fundamentals_ms_900_certificate.png) | 2025-10-17 | No Expiration |
-| PL-300 | Microsoft Certified: Power BI Data Analyst Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/81ab184bb00e00be) | [View](/files/microsoft/microsoft_certified_power_bi_data_analyst_associate_pl_300_certificate.png) | 2025-10-13 | 2026-10-14 |
-| SC-100 | Microsoft Certified: Cybersecurity Architect Expert | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/cbbf1932f8214f3) | [View](/files/microsoft/microsoft_certified_cybersecurity_architect_expert_sc_100_certificate.png) | 2025-10-12 | 2026-10-13 |
-| DP-600 | Microsoft Certified: Fabric Analytics Engineer Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/f1975c324cca3794) | [View](/files/microsoft/microsoft_azure_fabric_analytics_engineer_associate_dp_600_certificate.jpg) | 2025-10-11 | 2026-10-12 |
-| AZ-500 | Microsoft Certified: Azure Security Engineer Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/24278eed802ab4a7) | [View](/files/microsoft/microsoft_certified_azure_security_engineer_associate_az_500_certificate.png) | 2025-10-10 | 2026-10-11 |
-| DP-300 | Microsoft Certified: Azure Database Administrator Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/86ba0be9bf8d506b) | [View](/files/microsoft/microsoft_azure_database_aministrator_associate_dp_300_certificate.png) | 2025-10-09 | 2026-10-10 |
-| AZ-400 | Microsoft Certified: Azure DevOps Engineer Expert | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/392c9cde0e967602) | [View](/files/microsoft/microsoft_azure_DevOps_engineer_expert._certificate.png) | 2025-10-08 | 2026-10-09 |
-| DP-420 | Microsoft Certified: Azure Cosmos DB Developer Specialty | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/e416a0a1c0a38946) | [View](/files/microsoft/microsoft_azure_cosmos_DB_developer_specialty_dp_420_certficate.png) | 2025-10-07 | 2026-10-08 |
-| AZ-204 | Microsoft Certified: Azure Developer Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/93d8b03b2eae81c8) | [View](/files/microsoft/microsoft_certified_azure_developer_associate_az_204_certificate.png) | 2025-10-07 | 2026-10-07 |
-| AZ-305 | Microsoft Certified: Azure Solutions Architect Expert | [Verify](https://learn.microsoft.com/en-us/users/SMGazzaliArafatNishan-4645/credentials/BBB34331FCB74DB7) | [View](/files/microsoft/microsoft_azure_solutions_architect_expert_az_305_certificate.png) | 2025-10-05 | 2026-10-06 |
-| AZ-104 | Microsoft Certified: Azure Administrator Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/bae96e1b17f4524) | [View](/files/microsoft/microsoft_azure_administrator_associate_az104_certificate.png) | 2025-10-04 | 2026-10-05 |
-| DP-700 | Microsoft Certified: Fabric Data Engineer Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/d61411166c394a7a) | [View](/files/microsoft/microsoft_azure_fabric_data_engineer_associate_dp_700_certificate.png) | 2025-06-24 | 2027-06-25 |
-| DP-203 | Microsoft Certified: Azure Data Engineer Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/cc036a4b7affc9ae) | [View](/files/microsoft/microsoft_azure_data_engineer_associate_dp_203_certificate.png) | 2024-11-28 | 2025-11-28 |
-| AI-102 | Microsoft Certified: Azure AI Engineer Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/cab2713e62f9049a) | [View](/files/microsoft/microsoft_azure_ai_engineer_associate_ai_102_certificate.png) | 2024-04-30 | 2027-04-30 |
-| DP-100 | Microsoft Certified: Azure Data Scientist Associate | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/a2c48d4c8739efa2) | [View](/files/microsoft/microsoft_azure_data_scientist_associate_dp_100_certificate.png) | 2024-04-28 | 2027-04-28 |
-| AI-900 | Microsoft Certified: Azure AI Fundamentals | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/26e51c20de6defe8) | [View](/files/microsoft/microsoft_azure_ai_fundamentals_ai_900_certificate.png) | 2023-08-08 | No Expiration |
+| AB-100 | Microsoft Certified: Agentic AI Business Solutions Architect | [Verify](/credential-access/ab-100-verify/) | [View](/credential-access/ab-100-view/) | 2026-01-08 | 2027-01-08 |
+| MS-900 | Microsoft 365 Certified: Fundamentals | [Verify](/credential-access/ms-900-verify/) | [View](/credential-access/ms-900-view/) | 2025-10-17 | No Expiration |
+| PL-300 | Microsoft Certified: Power BI Data Analyst Associate | [Verify](/credential-access/pl-300-verify/) | [View](/credential-access/pl-300-view/) | 2025-10-13 | 2026-10-14 |
+| SC-100 | Microsoft Certified: Cybersecurity Architect Expert | [Verify](/credential-access/sc-100-verify/) | [View](/credential-access/sc-100-view/) | 2025-10-12 | 2026-10-13 |
+| DP-600 | Microsoft Certified: Fabric Analytics Engineer Associate | [Verify](/credential-access/dp-600-verify/) | [View](/credential-access/dp-600-view/) | 2025-10-11 | 2026-10-12 |
+| AZ-500 | Microsoft Certified: Azure Security Engineer Associate | [Verify](/credential-access/az-500-verify/) | [View](/credential-access/az-500-view/) | 2025-10-10 | 2026-10-11 |
+| DP-300 | Microsoft Certified: Azure Database Administrator Associate | [Verify](/credential-access/dp-300-verify/) | [View](/credential-access/dp-300-view/) | 2025-10-09 | 2026-10-10 |
+| AZ-400 | Microsoft Certified: Azure DevOps Engineer Expert | [Verify](/credential-access/az-400-verify/) | [View](/credential-access/az-400-view/) | 2025-10-08 | 2026-10-09 |
+| DP-420 | Microsoft Certified: Azure Cosmos DB Developer Specialty | [Verify](/credential-access/dp-420-verify/) | [View](/credential-access/dp-420-view/) | 2025-10-07 | 2026-10-08 |
+| AZ-204 | Microsoft Certified: Azure Developer Associate | [Verify](/credential-access/az-204-verify/) | [View](/credential-access/az-204-view/) | 2025-10-07 | 2026-10-07 |
+| AZ-305 | Microsoft Certified: Azure Solutions Architect Expert | [Verify](/credential-access/az-305-verify/) | [View](/credential-access/az-305-view/) | 2025-10-05 | 2026-10-06 |
+| AZ-104 | Microsoft Certified: Azure Administrator Associate | [Verify](/credential-access/az-104-verify/) | [View](/credential-access/az-104-view/) | 2025-10-04 | 2026-10-05 |
+| DP-700 | Microsoft Certified: Fabric Data Engineer Associate | [Verify](/credential-access/dp-700-verify/) | [View](/credential-access/dp-700-view/) | 2025-06-24 | 2027-06-25 |
+| DP-203 | Microsoft Certified: Azure Data Engineer Associate | [Verify](/credential-access/dp-203-verify/) | [View](/credential-access/dp-203-view/) | 2024-11-28 | 2025-11-28 |
+| AI-102 | Microsoft Certified: Azure AI Engineer Associate | [Verify](/credential-access/ai-102-verify/) | [View](/credential-access/ai-102-view/) | 2024-04-30 | 2027-04-30 |
+| DP-100 | Microsoft Certified: Azure Data Scientist Associate | [Verify](/credential-access/dp-100-verify/) | [View](/credential-access/dp-100-view/) | 2024-04-28 | 2027-04-28 |
+| AI-900 | Microsoft Certified: Azure AI Fundamentals | [Verify](/credential-access/ai-900-verify/) | [View](/credential-access/ai-900-view/) | 2023-08-08 | No Expiration |
 
 
 ### Salesforce Certifications
 
 | Code | Certification | Verification | Certificate | Date Obtained | Expiration |
 |------|---------------|--------------|-------------|---------------|------------|
-| AFS-201 | Salesforce Agentforce Specialist | [Verify](https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=HMSujjN0DbOGNwNFaf7BSWxyKIszZyh9j11hwWmMXFh9w2//9/YntgBFH4fuDrXm) | [View](/files/salesforce/salesforce_agentforce_specialist.png) | 2025-06-21 | No Expiration |
-| N/A | Salesforce AI Associate | [Verify](https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=HMSujjN0DbOGNwNFaf7BSWxyKIszZyh9j11hwWmMXFh9w2//9/YntgBFH4fuDrXm) | [View](/files/salesforce/salesforce_ai_associate_cert.png) | 2024-11-28 | No Expiration |
+| AFS-201 | Salesforce Agentforce Specialist | [Verify](/credential-access/afs-201-verify/) | [View](/credential-access/afs-201-view/) | 2025-06-21 | No Expiration |
+| N/A | Salesforce AI Associate | [Verify](/credential-access/afs-201-verify/) | [View](/credential-access/n-a-view/) | 2024-11-28 | No Expiration |
 
 ### Astronomer Certifications
 
 | Code | Certification | Verification | Certificate | Date Obtained | Expiration |
 |------|---------------|--------------|-------------|---------------|------------|
-| DAG Authoring (Airflow 3) | Astronomer Certification DAG Authoring for Apache Airflow 3 | [Verify](https://www.credly.com/go/UFsNYksz) | [View](/files/astronomer/certificates/AstronomerCertificationDAGAuthoringforApacheAirflow3.png) | 2025-09-18 | No Expiration |
-| Airflow 101 (Airflow 3) | Astronomer Certification for Apache Airflow 3 Fundamentals | [Verify](https://www.credly.com/go/lnUPGtX2) | [View](/files/astronomer/certificates/astronomer_certification_for_apache_airflow_3_fundamentals.png) | 2025-09-18 | No Expiration |
+| DAG Authoring (Airflow 3) | Astronomer Certification DAG Authoring for Apache Airflow 3 | [Verify](/credential-access/dag-authoring-airflow-3-verify/) | [View](/credential-access/dag-authoring-airflow-3-view/) | 2025-09-18 | No Expiration |
+| Airflow 101 (Airflow 3) | Astronomer Certification for Apache Airflow 3 Fundamentals | [Verify](/credential-access/airflow-101-airflow-3-verify/) | [View](/credential-access/airflow-101-airflow-3-view/) | 2025-09-18 | No Expiration |
 
 ---
 # Microsoft Azure Certifications 
 ### Microsoft Certified: Agentic AI Business Solutions Architect   
 
-![Certificate Image](/files/microsoft/microsoft_azure__agentic_ai_business_solutions_architect_expert_ab_100_certificate.png)  
-> Fig. Agentic AI Business Solutions Architect 
+{% include protected-preview-link.html href="/credential-access/ab-100-view/" caption="Agentic AI Business Solutions Architect certificate preview." %}
 
 ### Skills Measured           
 - Design identity, governance, and monitoring solutions  
@@ -86,12 +85,11 @@ redirect_from:
 - Design business continuity solutions  
 - Design infrastructure solutions  
 
-> Agentic AI Business Solutions Architect Expert Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/fc6c7570a7490575 "Microsoft").  
+> Agentic AI Business Solutions Architect Expert Certificate Verification Link: [link](/credential-access/ab-100-verify/).  
 
 ### Microsoft Certified: Azure Cosmos DB Developer Specialty     
 
-![Certificate Image](/files/microsoft/microsoft_azure_cosmos_DB_developer_specialty_dp_420_certficate.png)  
-> Fig. Azure Cosmos DB Developer Specialty   
+{% include protected-preview-link.html href="/credential-access/dp-420-view/" caption="Azure Cosmos DB Developer Specialty certificate preview." %}
 
 ### Skills Measured       
 - Design and implement data models    
@@ -100,12 +98,11 @@ redirect_from:
 - Optimize an Azure Cosmos DB solution    
 - Maintain an Azure Cosmos DB solution    
 
-> Azure Cosmos DB Developer Specialty Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/e416a0a1c0a38946 "Microsoft").  
+> Azure Cosmos DB Developer Specialty Certificate Verification Link: [link](/credential-access/dp-420-verify/).  
 
 ### Microsoft Certified: Azure Solutions Architect Expert      
 
-![Certificate Image](/files/microsoft/microsoft_azure_solutions_architect_expert_az_305_certificate.png)  
-> Fig. Azure Solutions Architect Expert  Certificate  
+{% include protected-preview-link.html href="/credential-access/az-305-view/" caption="Azure Solutions Architect Expert certificate preview." %}
 
 ### Skills Measured   
 - Design identity, governance, and monitoring solutions      
@@ -113,12 +110,11 @@ redirect_from:
 - Design business continuity solutions    
 - Design infrastructure solutions   
 
-> Azure Solutions Architect Expert Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/bbb34331fcb74db7 "Microsoft").  
+> Azure Solutions Architect Expert Certificate Verification Link: [link](/credential-access/azure-solutions-architect-expert-certificate-verification-link-verify/).  
 
 ### Microsoft Certified: Cybersecurity Architect Expert       
 
-![Certificate Image](/files/microsoft/microsoft_certified_cybersecurity_architect_expert_sc_100_certificate.png)   
-> Fig. Azure Cybersecurity Architect Expert Certificate     
+{% include protected-preview-link.html href="/credential-access/sc-100-view/" caption="Azure Cybersecurity Architect Expert certificate preview." %}
 
 ### Skills Measured     
 - Design solutions that align with security best practices and priorities   
@@ -126,12 +122,11 @@ redirect_from:
 - Design security solutions for infrastructure  
 - Design security solutions for applications and data   
 
-> Azure Cybersecurity Architect Expert Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/cbbf1932f8214f3 "Microsoft").  
+> Azure Cybersecurity Architect Expert Certificate Verification Link: [link](/credential-access/sc-100-verify/).  
 
 ### Microsoft Certified: Azure DevOps Engineer Expert   
 
-![Certificate Image](/files/microsoft/microsoft_azure_DevOps_engineer_expert._certificate.png)   
-> Fig. Azure DevOps Engineer Expert Certificate     
+{% include protected-preview-link.html href="/credential-access/az-400-view/" caption="Azure DevOps Engineer Expert certificate preview." %}
 
 ### Skills Measured    
 - Design and implement processes and communications  
@@ -140,13 +135,12 @@ redirect_from:
 - Develop a security and compliance plan  
 - Implement an instrumentation strategy  
 
-> Azure DevOps Engineer Expert Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/392c9cde0e967602 "Microsoft").  
+> Azure DevOps Engineer Expert Certificate Verification Link: [link](/credential-access/az-400-verify/).  
 
 
 ### Microsoft Certified: Power BI Data Analyst Associate      
 
-![Certificate Image](/files/microsoft/microsoft_certified_power_bi_data_analyst_associate_pl_300_certificate.png)   
-> Fig. Azure Power BI Data Analyst Associate Certificate     
+{% include protected-preview-link.html href="/credential-access/pl-300-view/" caption="Power BI Data Analyst Associate certificate preview." %}
 
 ### Skills Measured      
 - Prepare the data  
@@ -154,24 +148,22 @@ redirect_from:
 - Visualize and analyze the data  
 - Manage and secure Power BI  
 
-> Azure Power BI Data Analyst Associate Certification Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/81ab184bb00e00be "Microsoft").  
+> Azure Power BI Data Analyst Associate Certification Verification Link: [link](/credential-access/pl-300-verify/).  
 
 ### Microsoft Certified: Fabric Analytics Engineer Associate     
 
-![Certificate Image](/files/microsoft/microsoft_azure_fabric_analytics_engineer_associate_dp_600_certificate.jpg)   
-> Fig. Azure Fabric Analytics Engineer Associate Certificate     
+{% include protected-preview-link.html href="/credential-access/dp-600-view/" caption="Fabric Analytics Engineer Associate certificate preview." %}
 
 ### Skills Measured     
 - Maintain a data analytics solution  
 - Prepare data  
 - Implement and manage semantic models      
 
-> Azure Fabric Analytics Engineer Associate Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/f1975c324cca3794 "Microsoft").  
+> Azure Fabric Analytics Engineer Associate Certificate Verification Link: [link](/credential-access/dp-600-verify/).  
 
 ### Microsoft Certified: Azure Security Engineer Associate     
 
-![Certificate Image](/files/microsoft/microsoft_certified_azure_security_engineer_associate_az_500_certificate.png)   
-> Fig. Azure Security Engineer Associate Certificate     
+{% include protected-preview-link.html href="/credential-access/az-500-view/" caption="Azure Security Engineer Associate certificate preview." %}
 
 ### Skills Measured     
 - Secure identity and access   
@@ -179,12 +171,11 @@ redirect_from:
 - Secure compute, storage, and databases   
 - Secure Azure using Microsoft Defender for Cloud and Microsoft Sentinel   
 
-> Azure Security Engineer Associate Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/24278eed802ab4a7 "Microsoft").  
+> Azure Security Engineer Associate Certificate Verification Link: [link](/credential-access/az-500-verify/).  
 
 ### Microsoft Certified: Azure Database Administrator Associate     
 
-![Certificate Image](/files/microsoft/microsoft_azure_database_aministrator_associate_dp_300_certificate.png)   
-> Fig. Azure Database Administrator Associate Certificate     
+{% include protected-preview-link.html href="/credential-access/dp-300-view/" caption="Azure Database Administrator Associate certificate preview." %}
 
 ### Skills Measured    
 - Plan and implement data platform resources   
@@ -193,13 +184,12 @@ redirect_from:
 - Configure and manage automation of tasks  
 - Plan and configure a high availability and disaster recovery (HA/DR) environment   
 
-> Azure Database Administrator Associate Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/86ba0be9bf8d506b "Microsoft").  
+> Azure Database Administrator Associate Certificate Verification Link: [link](/credential-access/dp-300-verify/).  
 
 
 ### Microsoft Certified: Azure Administrator Associate    
 
-![Certificate Image](/files/microsoft/microsoft_azure_administrator_associate_az104_certificate.png)  
-> Fig. Azure Administrator Associate Certificate  
+{% include protected-preview-link.html href="/credential-access/az-104-view/" caption="Azure Administrator Associate certificate preview." %}
 
 ### Skills Measured   
 - Manage Azure identities and governance    
@@ -208,12 +198,11 @@ redirect_from:
 - Implement and manage virtual networking  
 - Monitor and maintain Azure resources     
 
-> Azure Administrator Associate Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/bae96e1b17f4524 "Microsoft").
+> Azure Administrator Associate Certificate Verification Link: [link](/credential-access/az-104-verify/).
 
 ### Microsoft Certified: Fabric Data Engineer Associate  
 
-![Certificate Image](/files/microsoft/microsoft_azure_fabric_data_engineer_associate_dp_700_certificate.png)
-> Fig. Azure Fabric Data Engineer Associate Certificate
+{% include protected-preview-link.html href="/credential-access/dp-700-view/" caption="Fabric Data Engineer Associate certificate preview." %}
 
 ### Skills Measured  
 - Ingesting and transforming data      
@@ -228,26 +217,24 @@ redirect_from:
 - Ingest and transform streaming data  
 - Monitor Fabric items  
 
-> Azure Fabric Data Engineer Associate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/d61411166c394a7a "Microsoft").
+> Azure Fabric Data Engineer Associate Verification Link: [link](/credential-access/dp-700-verify/).
 
 
 ### Microsoft Certified: Azure Data Engineer Associate
 
-![Certificate Image](/files/microsoft/microsoft_azure_data_engineer_associate_dp_203_certificate.png)
-> Fig. Azure Data Engineer Associate Certificate
+{% include protected-preview-link.html href="/credential-access/dp-203-view/" caption="Azure Data Engineer Associate certificate preview." %}
 
 ### Skills Measured
 - Design and implement data storage  
 - Develop data processing  
 - Secure, monitor, and optimize data storage and data processing  
 
-> Azure Data Engineer Associate Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/SMGazzaliArafatNishan-4645/credentials/CC036A4B7AFFC9AE "Microsoft").
+> Azure Data Engineer Associate Certificate Verification Link: [link](/credential-access/azure-data-engineer-associate-certificate-verification-link-verify/).
 
 
 ### Microsoft Certified: Azure Data Scientist Associate
 
-![Certificate Image](/files/microsoft/microsoft_azure_data_scientist_associate_dp_100_certificate.png)
-> Fig. Azure Data Scientist Associate Certificate
+{% include protected-preview-link.html href="/credential-access/dp-100-view/" caption="Azure Data Scientist Associate certificate preview." %}
 
 ### Skills Measured
 - Design and prepare a machine learning solution  
@@ -267,13 +254,12 @@ redirect_from:
 - Deploy a model to a managed online endpoint  
 - Deploy a model to a batch endpoint  
 
-> Azure Data Scientist Associate Certificate Verification Link: [link](https://learn.microsoft.com/api/credentials/share/en-us/SMGazzaliArafatNishan-4645/A2C48D4C8739EFA2?sharingId=A489942037851738 "Microsoft").
+> Azure Data Scientist Associate Certificate Verification Link: [link](/credential-access/azure-data-scientist-associate-certificate-verification-link-verify/).
 
 
 ### Microsoft Certified: Azure AI Engineer Associate   
 
-![Certificate Image](/files/microsoft/microsoft_azure_ai_engineer_associate_ai_102_certificate.png)
-> Fig. Azure AI Engineer Associate Certificate
+{% include protected-preview-link.html href="/credential-access/ai-102-view/" caption="Azure AI Engineer Associate certificate preview." %}
 
 ### Skills Measured:  
 - Plan and manage an Azure AI solution   
@@ -292,12 +278,11 @@ redirect_from:
 - Analyze images  
 - Extract insights from text  
 
-> Azure AI Engineer Associate Certificate Verification Link: [link](https://learn.microsoft.com/api/credentials/share/en-us/SMGazzaliArafatNishan-4645/CAB2713E62F9049A?sharingId=A489942037851738 "Microsoft").  
+> Azure AI Engineer Associate Certificate Verification Link: [link](/credential-access/azure-ai-engineer-associate-certificate-verification-link-verify/).  
 
 ### Microsoft 365 Certified: Fundamentals  
 
-![Certificate Image](/files/microsoft/microsoft_365_certified_fundamentals_ms_900_certificate.png)  
-> Fig. Microsoft 365 Fundamentals Certificate  
+{% include protected-preview-link.html href="/credential-access/ms-900-view/" caption="Microsoft 365 Fundamentals certificate preview." %}
 
 ### Skills Measured:  
 - Describe cloud concepts  
@@ -305,12 +290,11 @@ redirect_from:
 - Describe security, compliance, privacy, and trust in Microsoft 365  
 - Describe Microsoft 365 pricing, licensing, and support  
 
-> Microsoft 365 Fundamentals Certificate Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/1aaa1818f8168b1 "Microsoft").
+> Microsoft 365 Fundamentals Certificate Verification Link: [link](/credential-access/ms-900-verify/).
 
 ### Microsoft Certified: Azure AI Fundamentals
 
-![Certificate Image](/files/microsoft/microsoft_azure_ai_fundamentals_ai_900_certificate.png)
-> Fig. Azure AI Fundamentals Certificate
+{% include protected-preview-link.html href="/credential-access/ai-900-view/" caption="Azure AI Fundamentals certificate preview." %}
 
 ### Skills Measured:
 - Describe Artificial Intelligence workloads and considerations  
@@ -319,7 +303,7 @@ redirect_from:
 - Describe features of Natural Language Processing (NLP) workloads on Azure  
 - Describe features of generative AI workloads on Azure  
 
-> Azure AI Fundamentals Certificate Verification Link: [link](https://learn.microsoft.com/api/credentials/share/en-us/SMGazzaliArafatNishan-4645/26E51C20DE6DEFE8?sharingId=A489942037851738 "Microsoft").
+> Azure AI Fundamentals Certificate Verification Link: [link](/credential-access/azure-ai-fundamentals-certificate-verification-link-verify/).
 
 
 ---
@@ -327,8 +311,7 @@ redirect_from:
 
 ### Microsoft Applied Skills: Implement a data science and machine learning solution with Microsoft Fabric
 
-![Certificate Image](/files/microsoft/appliedskills/Microsoft Applied Skills Implement a data science and machine learning solution with Microsoft Fabric.png)
-> Fig. Microsoft Applied Skills: Implement a data science and machine learning solution with Microsoft Fabric
+{% include protected-preview-link.html href="/credential-access/dp-604-view/" caption="Microsoft Applied Skills: Implement a data science and machine learning solution with Microsoft Fabric." %}
 
 ### Tasks Performed
 - Ingest and load data  
@@ -338,12 +321,11 @@ redirect_from:
 - Track models and experiments  
 - Generate predictions from a model  
 
-> Microsoft Applied Skills Verification Link: [link](https://learn.microsoft.com/en-us/users/SMGazzaliArafatNishan-4645/credentials/BFE40A3E91369FB1 "Microsoft").
+> Microsoft Applied Skills Verification Link: [link](/credential-access/microsoft-applied-skills-verification-link-verify/).
 
 ### Microsoft Applied Skills: Create an intelligent document processing solution with Azure AI Document Intelligence
 
-![Certificate Image](/files/microsoft/appliedskills/Microsoft Applied Skills Create an intelligent document processing solution with Azure AI Document Intelligence.png)
-> Fig. Microsoft Applied Skills: Create an intelligent document processing solution with Azure AI Document Intelligence
+{% include protected-preview-link.html href="/credential-access/ai-3002-view/" caption="Microsoft Applied Skills: Create an intelligent document processing solution with Azure AI Document Intelligence." %}
 
 ### Tasks Performed
 - Create and configure resources  
@@ -352,26 +334,24 @@ redirect_from:
 - Configure model endpoints for document types  
 - Extract key value pairs  
 
-> Microsoft Applied Skills Verification Link: [link](https://learn.microsoft.com/en-us/users/SMGazzaliArafatNishan-4645/credentials/51E23D9DA965588F "Microsoft").
+> Microsoft Applied Skills Verification Link: [link](/credential-access/microsoft-applied-skills-verification-link-verify-2/).
 
 ### Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language
 
-![Certificate Image](/files/microsoft/appliedskills/Microsoft Applied Skills Build a natural language processing solution with Azure AI Language.png)
-> Fig. Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language
+{% include protected-preview-link.html href="/credential-access/ai-3003-view/" caption="Microsoft Applied Skills: Build a natural language processing solution with Azure AI Language." %}
 
 ### Tasks Performed
 - Deploy a language resource, and use prebuilt models  
 - Create a custom text classification solution  
 - Create a custom named entity recognition (NER) solution  
 
-> Microsoft Applied Skills Verification Link: [link](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/a88fadd020e0d31b "Microsoft").
+> Microsoft Applied Skills Verification Link: [link](/credential-access/ai-3003-verify/).
 
 ---
 # Salesforce Certification
 ---
 ## Salesforce Certified (2025) Agentforce Specialist 
-![Certificate Image](/files/salesforce/salesforce_agentforce_specialist.png)
-> Fig. Salesforce Agentforce Specialist Certificate
+{% include protected-preview-link.html href="/credential-access/afs-201-view/" caption="Salesforce Agentforce Specialist certificate preview." %}
 
 ### Agentforce Specialists are responsible for managing and optimizing Agentforce and have a deep understanding of both Salesforce platform configuration and Agentforce capabilities.
 
@@ -406,11 +386,10 @@ redirect_from:
 - Deploy SDR Agent     
 - Leverage Sales Coach Agent    
 
-> Salesforce Agentforce Specialist Certification Verification Link: [link](https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=HMSujjN0DbOGNwNFaf7BSWxyKIszZyh9j11hwWmMXFh9w2//9/YntgBFH4fuDrXm "Salesforce").
+> Salesforce Agentforce Specialist Certification Verification Link: [link](/credential-access/afs-201-verify/).
 
 ## Salesforce Certified (2024) AI Associate
-![Certificate Image](/files/salesforce/salesforce_ai_associate_cert.png)
-> Fig. Salesforce AI Associate Certificate
+{% include protected-preview-link.html href="/credential-access/n-a-view/" caption="Salesforce AI Associate certificate preview." %}
 
 ### Skills Measured
 - AI Fundamentals and AI Capabilities in CRM  
@@ -418,7 +397,8 @@ redirect_from:
 - Data for AI, Data Management  
 - Business and Productivity Tools and Salesforce Customer 360  
 
-> Salesforce AI Certification Verification Link: [link](https://trailhead.salesforce.com/en/credentials/certification-detail-print/?searchString=HMSujjN0DbOGNwNFaf7BSWxyKIszZyh9j11hwWmMXFh9w2//9/YntgBFH4fuDrXm  "Salesforce").
+> Salesforce AI Certification Verification Link: [link](/credential-access/afs-201-verify/).
+
 
 
 

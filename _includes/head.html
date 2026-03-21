@@ -25,14 +25,16 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
 <meta name="apple-mobile-web-app-capable" content="yes">
 <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-<meta name="apple-mobile-web-app-title" content="Nishan">
+<meta name="apple-mobile-web-app-title" content="">
 
 <!-- Additional Meta Tags for Better SEO -->
 <meta name="description" content="Azure AI & Data Solutions Architect | Expert in ML, NLP, Cloud Technologies">
 <meta name="keywords" content="Azure, AI, Data Architecture, Machine Learning, NLP, Cloud Solutions">
-<meta name="author" content="S M Gazzali Arafat Nishan">
-<meta name="robots" content="index, follow, max-image-preview:large">
-<meta name="googlebot" content="index, follow, max-image-preview:large">
+<meta name="author" content="Site Owner">
+<meta name="robots" content="{{ page.robots | default: 'noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate' }}">
+<meta name="googlebot" content="{{ page.robots | default: 'noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate' }}">
+<meta name="bingbot" content="{{ page.robots | default: 'noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate' }}">
+<meta name="referrer" content="no-referrer">
 
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
@@ -56,6 +58,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <link rel="stylesheet" href="{{ base_path }}/assets/css/accessibility-controls.css">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/accessibility-position.css">
 <link rel="stylesheet" href="{{ base_path }}/assets/css/enterprise-responsive-fixes.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/navigation-captcha.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/protected-access.css">
+<link rel="stylesheet" href="{{ base_path }}/assets/css/content-protection.css">
 
 <meta http-equiv="cleartype" content="on">
 <!-- GA4 Measurement ID for analytics helper (populated from _config.yml) -->

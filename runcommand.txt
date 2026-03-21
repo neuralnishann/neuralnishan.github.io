@@ -1,4 +1,6 @@
+bundle config set --local path vendor/bundle
 bundle install
-bundle clean force--
+bundle update jekyll-sass-converter
+bundle clean --force
 bundle exec jekyll build
 bundle exec jekyll serve

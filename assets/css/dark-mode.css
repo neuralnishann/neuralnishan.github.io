@@ -1,12 +1,12 @@
 /* Floating dark mode toggle and expanded dark theme overrides */
 
-/* CSS Custom Properties - Default Colors */
+/* CSS Custom Properties - Neon default colors */
 :root {
-  --color-primary: #52adc8;
-  --color-secondary: #7a8288;
-  --color-accent: #f89406;
-  --color-light: #62c462;
-  --color-danger: #ee5f5b;
+  --color-primary: #39ff14;
+  --color-secondary: #ff10f0;
+  --color-accent: #00ffff;
+  --color-light: #7fff00;
+  --color-danger: #ff1493;
   --color-text-light: #e8f4f8;
 }
 
