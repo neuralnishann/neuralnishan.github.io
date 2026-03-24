@@ -10,6 +10,7 @@ redirect_from:
 
 | Training Name | Verification | Certificate | Date Obtained | Expiration |
 |---------------|--------------|-------------|---------------|--------|
+|Agentic AI Hackathon -​ Proficient - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/178f9e9f-40ba-4997-b0f6-e48c9fda3acb/public_url) | [View](/files/microsoft/mslogos/agentic-ai-hackathon-proficient.png) | 2026-03-24 | No Expiration |
 |Sell with Confidence: Innovate with Copilot and Agents in Power Platform - Proficient - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/0adb98f9-b360-464a-92d4-02ce04538781/public_url) | [View](/files/microsoft/mslogos/sell-with-confidence-innovate-with-copilot-and-agen.png) | 2026-03-22 | No Expiration |
 |Sell with confidence: Migrate and modernize your estate on Azure - Proficient - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/1932241e-00cd-4c20-a9bf-a73d0393e230/public_url) | [View](/files/microsoft/mslogos/sell-with-confidence-migrate-and-modernize-your-est.png) | 2026-03-22 | No Expiration |
 |Azure: Migrate and Modernize - Titan - (Microsoft GCPS) | [Verify](/credential-access/azure-migrate-and-modernize-titan-microsoft-gcps-verify/) | [View](/credential-access/azure-migrate-and-modernize-titan-microsoft-gcps-view/) | 2026-03-15 | No Expiration |
