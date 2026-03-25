@@ -29,6 +29,7 @@ redirect_from:
 
 | Code | Applied Skill | Verification | Certificate | Date Obtained | Expiration |
 |------|---------------|--------------|-------------|---------------|------------|
+| APL| Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/e3de20401817b2d) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with classes, properties, and methods in C#.png) | 2026-03-25 | No Expiration |
 | APL| Microsoft Applied Skills: Get started with classes, properties, and methods in C# | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/72284df5f7ca20f7) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with classes, properties, and methods in C#.png) | 2026-03-24 | No Expiration |
 | APL| Microsoft Applied Skills: Develop generative AI apps with Azure OpenAI and Semantic Kernel | [Verify](/credential-access/apl-verify/) | [View](/credential-access/apl-view/) | 2026-03-06 | No Expiration |
 | APL| Microsoft Applied Skills: Build a generative AI chat app | [Verify](/credential-access/apl-verify-2/) | [View](/credential-access/apl-view-2/) | 2026-03-05 | No Expiration |
