@@ -10,6 +10,7 @@ redirect_from:
 
 | Training Name | Verification | Certificate | Date Obtained | Expiration |
 |---------------|--------------|-------------|---------------|--------|
+|Sell with confidence: Position Cloud, AI Platform and Apps protection with Defender for Cloud - Proficient - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/fd78c71b-9947-4c07-b795-305c11a3a3b6/public_url) | [View](/files/microsoft/mslogos/sell-with-confidence-position-cloud-ai-platform-and.png) | 2026-03-27 | No Expiration |
 |Agentic AI Hackathon -​ Skilled - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/c6392527-b7f0-414a-acdf-5761eb5e0b7e/public_url) | [View](/files/microsoft/mslogos/agentic-ai-hackathon-skilled.png) | 2026-03-25 | No Expiration |
 |Agentic AI Hackathon -​ Proficient - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/178f9e9f-40ba-4997-b0f6-e48c9fda3acb/public_url) | [View](/files/microsoft/mslogos/agentic-ai-hackathon-proficient.png) | 2026-03-24 | No Expiration |
 |Sell with Confidence: Innovate with Copilot and Agents in Power Platform - Proficient - (Microsoft GCPS) | [Verify](https://www.credly.com/badges/0adb98f9-b360-464a-92d4-02ce04538781/public_url) | [View](/files/microsoft/mslogos/sell-with-confidence-innovate-with-copilot-and-agen.png) | 2026-03-22 | No Expiration |
@@ -29,6 +30,7 @@ redirect_from:
 
 | Code | Applied Skill | Verification | Certificate | Date Obtained | Expiration |
 |------|---------------|--------------|-------------|---------------|------------|
+| APL-1002| Microsoft Applied Skills: Configure secure access to your workloads using Azure networking | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/e3de20401817b2d) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with classes, properties, and methods in C#.png) | 2026-03-26 | No Expiration |
 | APL| Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/e3de20401817b2d) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with classes, properties, and methods in C#.png) | 2026-03-25 | No Expiration |
 | APL| Microsoft Applied Skills: Get started with classes, properties, and methods in C# | [Verify](https://learn.microsoft.com/en-us/users/smgazzaliarafatnishan-4645/credentials/72284df5f7ca20f7) | [View](/files/microsoft/appliedskills/Microsoft Applied Skills Get started with classes, properties, and methods in C#.png) | 2026-03-24 | No Expiration |
 | APL| Microsoft Applied Skills: Develop generative AI apps with Azure OpenAI and Semantic Kernel | [Verify](/credential-access/apl-verify/) | [View](/credential-access/apl-view/) | 2026-03-06 | No Expiration |

@@ -19,9 +19,9 @@ author:
   url: http://neuralnishan.space
 
 # Analytics
-google_analytics_id: G-1NQDSN2060
+google_analytics_id:
 # Backwards-compatible key used by the analytics include
-google_analytics: G-1NQDSN2060
+google_analytics: 
 
 # Collections
 collections:
