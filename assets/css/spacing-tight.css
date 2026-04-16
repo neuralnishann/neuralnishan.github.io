@@ -5,11 +5,27 @@
   display: flex;
   align-items: flex-start;
   gap: 20px;
+  flex-wrap: nowrap;
+  max-width: 1360px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem !important;
+  padding-right: 1rem !important;
 }
 
 .page {
   flex: 1;
   width: 100%;
+  min-width: 0;
+  float: none !important;
+  margin: 0 !important;
+  max-width: none !important;
+}
+
+.page__inner-wrap {
+  max-width: none !important;
+  width: 100%;
+  margin: 0 !important;
 }
 
 .page__title {
@@ -35,6 +51,12 @@
   top: 100px;
 }
 
+@media (min-width: 1025px) {
+  .page {
+    padding-right: 0 !important;
+  }
+}
+
 /* Reduce intro animation delay for faster appearance */
 @keyframes intro {
   from {
@@ -48,10 +70,11 @@
 }
 
 /* Mobile responsive */
-@media (max-width: 1024px) {
+@media (max-width: 1199px) {
   #main {
     flex-direction: column;
     align-items: stretch;
+    gap: 16px;
   }
 
   .sidebar {

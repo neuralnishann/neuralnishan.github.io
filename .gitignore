@@ -1,71 +1,31 @@
-# ========================================================================
-# JEKYLL & BUILD ARTIFACTS
-# ========================================================================
-_site/
-.sass-cache/
-.jekyll-cache/
-*.gem
+# Dependencies
+node_modules/
+vendor/
+.bundle/
 
-# ========================================================================
-# SENSITIVE DATA & CREDENTIALS
-# ========================================================================
+# Jekyll Caches and Build Output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+.sass-cache/
+
+# Environment Variables and Secrets
 .env
-.env.local
-.env.*.local
-.env.prod
-.env.production
-.credentials
+.env.*
 *.pem
 *.key
-*.p12
-*.pfx
 
-# ========================================================================
-# IDE & EDITOR FILES
-# ========================================================================
-.vscode/
-.idea/
-*.swp
-*.swo
-*~
+# Migration and Backup Files
+*.bak
+_config_old.yml
+_config.yml.bak
+
+# OS Generated Files
 .DS_Store
-Thumbs.db
-
-# ========================================================================
-# RUBY & BUNDLER
-# ========================================================================
-Gemfile.lock
-/vendor/
-.bundle/
-*.gem
-
-# ========================================================================
-# NODE & NPM
-# ========================================================================
-node_modules/
-package-lock.json
-yarn.lock
-
-# ========================================================================
-# OS SPECIFIC FILES
-# ========================================================================
-.DS_Store
-.AppleDouble
-.LSOverride
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 Desktop.ini
-
-# ========================================================================
-# DEVELOPMENT DIRECTORIES
-# ========================================================================
-local/
-tmp/
-temp/
-dist/
-build/
-
-# ========================================================================
-# LOG FILES
-# ========================================================================
-*.log
-*.logs

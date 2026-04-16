@@ -184,6 +184,16 @@
     root.style.setProperty('--color-accent', theme.accent);
     root.style.setProperty('--color-light', theme.light);
     root.style.setProperty('--color-danger', theme.danger);
+    root.style.setProperty('--primary', theme.primary);
+    root.style.setProperty('--primary-dark', lightenColor(theme.primary, -22));
+    root.style.setProperty('--primary-light', lightenColor(theme.primary, 12));
+    root.style.setProperty('--primary-lighter', lightenColor(theme.primary, 38));
+    root.style.setProperty('--secondary', theme.secondary);
+    root.style.setProperty('--secondary-light', lightenColor(theme.secondary, 34));
+    root.style.setProperty('--accent', theme.accent);
+    root.style.setProperty('--accent-light', lightenColor(theme.accent, 34));
+    root.style.setProperty('--primary-accent', theme.primary);
+    root.style.setProperty('--primary-accent-dark', lightenColor(theme.primary, -18));
 
     // Update dynamic styles
     updateLinkColors(theme);
@@ -211,12 +221,8 @@
       console.log('Created dynamic-color-styles element');
     }
 
-    // Lighten colors for better dark mode contrast
-    const lightPrimary = lightenColor(theme.primary, 30);
-    const lightSecondary = lightenColor(theme.secondary, 30);
-    const lightAccent = lightenColor(theme.accent, 30);
-    const lightLight = lightenColor(theme.light, 30);
-    const lightDanger = lightenColor(theme.danger, 30);
+    const primaryRgb = hexToRgb(theme.primary);
+    const secondaryRgb = hexToRgb(theme.secondary);
 
     const styles = `
       :root {
@@ -324,8 +330,8 @@
       table th {
         color: ${theme.primary} !important;
         font-weight: 700 !important;
-        background: rgba(${theme.primary}, 0.08) !important;
-        border-color: rgba(${theme.primary}, 0.3) !important;
+        background: rgba(${primaryRgb}, 0.08) !important;
+        border-color: rgba(${primaryRgb}, 0.3) !important;
       }
 
       /* Social share buttons */
@@ -356,7 +362,7 @@
 
       /* Mark/highlight styling */
       mark {
-        background-color: rgba(${theme.primary}, 0.2);
+        background-color: rgba(${primaryRgb}, 0.2);
         color: ${theme.primary};
       }
 
@@ -378,7 +384,7 @@
       }
 
       .nav__list a:hover {
-        background: rgba(${theme.primary}, 0.1);
+        background: rgba(${primaryRgb}, 0.1);
         color: ${theme.secondary};
         box-shadow: -2px 0 0 ${theme.primary};
       }
@@ -397,19 +403,19 @@
       }
 
       .sidebar .nav__list a:hover {
-        background: rgba(${theme.primary}, 0.1);
+        background: rgba(${primaryRgb}, 0.1);
         color: ${theme.secondary};
         box-shadow: -2px 0 0 ${theme.primary};
       }
 
       /* Light mode sidebar styling */
       .sidebar {
-        border-color: rgba(${theme.primary}, 0.2);
+        border-color: rgba(${primaryRgb}, 0.2);
       }
 
       .sidebar:hover {
-        border-color: rgba(${theme.primary}, 0.3);
-        box-shadow: 0 12px 40px rgba(${theme.primary}, 0.15);
+        border-color: rgba(${primaryRgb}, 0.3);
+        box-shadow: 0 12px 40px rgba(${primaryRgb}, 0.15);
       }
 
       .author__name {
@@ -434,17 +440,17 @@
       }
 
       .sidebar h3:before {
-        background: linear-gradient(90deg, ${theme.primary}, ${theme.secondary});
+        background: ${theme.primary};
       }
 
       .author__urls a {
-        background: rgba(${theme.primary}, 0.08);
+        background: rgba(${primaryRgb}, 0.08);
         color: ${theme.primary};
-        border-color: rgba(${theme.primary}, 0.2);
+        border-color: rgba(${primaryRgb}, 0.2);
       }
 
       .author__urls a:hover {
-        background: linear-gradient(135deg, ${theme.primary}, ${theme.secondary});
+        background: rgba(${primaryRgb}, 0.16);
         color: #fff;
         border-color: ${theme.primary};
       }
@@ -495,46 +501,46 @@
       .color-switcher-toggle {
         border-color: ${theme.primary} !important;
         color: #000 !important;
-        background: linear-gradient(135deg, rgba(${theme.primary}, 0.1) 0%, rgba(${theme.primary}, 0.05) 100%) !important;
-        box-shadow: 0 6px 18px rgba(${theme.primary}, 0.15) !important;
+        background: rgba(${primaryRgb}, 0.12) !important;
+        box-shadow: 0 6px 18px rgba(${primaryRgb}, 0.15) !important;
       }
 
       .color-switcher-toggle:hover {
-        background: linear-gradient(135deg, rgba(${theme.primary}, 0.2) 0%, rgba(${theme.primary}, 0.1) 100%) !important;
-        box-shadow: 0 4px 12px rgba(${theme.primary}, 0.25) !important;
+        background: rgba(${primaryRgb}, 0.2) !important;
+        box-shadow: 0 4px 12px rgba(${primaryRgb}, 0.25) !important;
       }
 
       .accessibility-toggle {
         border-color: ${theme.primary} !important;
         color: #000 !important;
-        background: linear-gradient(135deg, rgba(${theme.primary}, 0.1) 0%, rgba(${theme.primary}, 0.05) 100%) !important;
-        box-shadow: 0 6px 18px rgba(${theme.primary}, 0.15) !important;
+        background: rgba(${primaryRgb}, 0.12) !important;
+        box-shadow: 0 6px 18px rgba(${primaryRgb}, 0.15) !important;
       }
 
       .accessibility-toggle:hover {
-        background: linear-gradient(135deg, rgba(${theme.primary}, 0.2) 0%, rgba(${theme.primary}, 0.1) 100%) !important;
-        box-shadow: 0 4px 12px rgba(${theme.primary}, 0.25) !important;
+        background: rgba(${primaryRgb}, 0.2) !important;
+        box-shadow: 0 4px 12px rgba(${primaryRgb}, 0.25) !important;
       }
 
       .theme-toggle-float {
         border-color: ${theme.primary} !important;
         color: #000 !important;
-        background: linear-gradient(135deg, rgba(${theme.primary}, 0.1) 0%, rgba(${theme.primary}, 0.05) 100%) !important;
-        box-shadow: 0 6px 18px rgba(${theme.primary}, 0.15) !important;
+        background: rgba(${primaryRgb}, 0.12) !important;
+        box-shadow: 0 6px 18px rgba(${primaryRgb}, 0.15) !important;
       }
 
       .theme-toggle-float:hover {
-        background: linear-gradient(135deg, rgba(${theme.primary}, 0.2) 0%, rgba(${theme.primary}, 0.1) 100%) !important;
-        box-shadow: 0 4px 12px rgba(${theme.primary}, 0.25) !important;
+        background: rgba(${primaryRgb}, 0.2) !important;
+        box-shadow: 0 4px 12px rgba(${primaryRgb}, 0.25) !important;
       }
 
       /* DARK MODE STYLING */
       html.dark a {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark a:hover {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       /* Dark mode bold text - lighter colors for contrast */
@@ -543,7 +549,7 @@
       html.dark .bold,
       html.dark [style*="font-weight: bold"],
       html.dark [style*="font-weight:bold"] {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
         font-weight: 700;
       }
 
@@ -554,7 +560,7 @@
       html.dark h4,
       html.dark h5,
       html.dark h6 {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark h1 strong, html.dark h1 b,
@@ -563,64 +569,64 @@
       html.dark h4 strong, html.dark h4 b,
       html.dark h5 strong, html.dark h5 b,
       html.dark h6 strong, html.dark h6 b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       /* Dark mode page heading */
       html.dark .page__content h2 {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       html.dark .page__content h2 strong,
       html.dark .page__content h2 b {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       html.dark .archive__item-title {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .archive__item-title a {
-        color: ${lightPrimary} !important;
+        color: ${lightenColor(theme.primary, 18)} !important;
       }
 
       html.dark .archive__item-title a:hover {
-        color: ${lightSecondary} !important;
+        color: ${lightenColor(theme.secondary, 18)} !important;
       }
 
       html.dark .archive__item-title strong,
       html.dark .archive__item-title b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .sidebar .widget-title {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .sidebar .widget-title strong,
       html.dark .sidebar .widget-title b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       /* Dark mode button styling */
       html.dark .btn--info {
-        background-color: ${lightPrimary};
-        color: #000;
+        background-color: #111;
+        color: #f4f4f5;
       }
 
       html.dark .btn--success {
-        background-color: ${lightLight};
-        color: #000;
+        background-color: #111;
+        color: #f4f4f5;
       }
 
       html.dark .btn--warning {
-        background-color: ${lightAccent};
-        color: #000;
+        background-color: #111;
+        color: #f4f4f5;
       }
 
       html.dark .btn--danger {
-        background-color: ${lightDanger};
-        color: #000;
+        background-color: #111;
+        color: #f4f4f5;
       }
 
       /* General dark mode button styling */
@@ -628,62 +634,62 @@
       html.dark .btn, 
       html.dark input[type="button"], 
       html.dark input[type="submit"] {
-        background-color: ${lightPrimary};
-        color: #000;
-        border-color: ${lightPrimary};
+        background-color: #111;
+        color: #f4f4f5;
+        border-color: #2a2a2a;
       }
 
       html.dark button:hover, 
       html.dark .btn:hover, 
       html.dark input[type="button"]:hover, 
       html.dark input[type="submit"]:hover {
-        background-color: ${lightSecondary};
-        border-color: ${lightSecondary};
+        background-color: #1a1a1a;
+        border-color: #3a3a3a;
       }
 
       /* Dark mode table header styling */
       html.dark table th {
-        color: ${lightPrimary} !important;
+        color: #f4f4f5 !important;
         font-weight: 700 !important;
-        background: rgba(${lightPrimary}, 0.15) !important;
-        border-color: rgba(${lightPrimary}, 0.4) !important;
+        background: #0c0c0c !important;
+        border-color: #2a2a2a !important;
       }
 
       /* Dark mode social share buttons */
       html.dark .share-btn, 
       html.dark .social-share a {
-        color: ${lightPrimary} !important;
-        border-color: ${lightPrimary} !important;
+        color: #f4f4f5 !important;
+        border-color: #2a2a2a !important;
       }
 
       html.dark .share-btn:hover, 
       html.dark .social-share a:hover {
-        background-color: ${lightPrimary} !important;
-        color: #000 !important;
+        background-color: #1a1a1a !important;
+        color: #ffffff !important;
       }
 
       /* Dark mode paragraph bold text */
       html.dark p strong,
       html.dark p b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       /* Dark mode list bold text */
       html.dark li strong,
       html.dark li b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       /* Dark mode blockquote styling */
       html.dark blockquote strong,
       html.dark blockquote b {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       /* Dark mode mark/highlight styling */
       html.dark mark {
-        background-color: rgba(${lightPrimary}, 0.2);
-        color: ${lightPrimary};
+        background-color: #1a1a1a;
+        color: #f4f4f5;
       }
 
       /* Dark mode page content */
@@ -693,7 +699,7 @@
 
       html.dark .page__content strong,
       html.dark .page__content b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
         font-weight: 700;
       }
 
@@ -708,19 +714,19 @@
       }
 
       html.dark thead th {
-        background: #000 !important;
-        color: ${lightPrimary} !important;
-        border: 1px solid rgba(${lightPrimary}, 0.3) !important;
+        background: #0c0c0c !important;
+        color: #f4f4f5 !important;
+        border: 1px solid #2a2a2a !important;
       }
 
       html.dark tbody td {
         color: #e8f4f8 !important;
-        border: 1px solid rgba(${lightPrimary}, 0.2) !important;
+        border: 1px solid #222 !important;
         background: #0a0a0a !important;
       }
 
       html.dark tbody tr:hover td {
-        background: rgba(${lightPrimary}, 0.08) !important;
+        background: #111 !important;
       }
 
       html.dark tbody tr:nth-child(even) td {
@@ -728,11 +734,11 @@
       }
 
       html.dark tbody tr:nth-child(even):hover td {
-        background: rgba(${lightPrimary}, 0.08) !important;
+        background: #111 !important;
       }
 
       html.dark table caption {
-        color: ${lightPrimary} !important;
+        color: #f4f4f5 !important;
       }
 
       html.dark table strong,
@@ -741,78 +747,78 @@
       html.dark table td b,
       html.dark table th strong,
       html.dark table th b {
-        color: ${lightPrimary} !important;
+        color: ${lightenColor(theme.primary, 18)} !important;
         font-weight: 700 !important;
       }
 
       html.dark table em {
-        color: ${lightSecondary} !important;
+        color: ${lightenColor(theme.secondary, 18)} !important;
       }
 
       html.dark table i {
-        color: ${lightSecondary} !important;
+        color: ${lightenColor(theme.secondary, 18)} !important;
       }
 
       /* Dark mode navigation styling */
       html.dark .masthead__menu-item a {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .masthead__menu-item a:hover {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       html.dark .greedy-nav a:hover {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       html.dark .nav__list a {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .nav__list a:hover {
-        background: rgba(${lightPrimary}, 0.15);
-        color: ${lightPrimary};
-        box-shadow: -2px 0 0 ${lightPrimary};
+        background: #151515;
+        color: ${lightenColor(theme.secondary, 18)};
+        box-shadow: -2px 0 0 #3a3a3a;
       }
 
       html.dark .nav__list .active {
-        color: ${lightPrimary};
-        box-shadow: 0 4px 12px rgba(${lightPrimary}, 0.3);
+        color: ${lightenColor(theme.primary, 18)};
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
       }
 
       html.dark .nav__list .active:hover {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.secondary, 18)};
       }
 
       /* Dark mode sidebar styling */
       html.dark .sidebar {
-        background: rgba(30, 30, 30, 0.6);
-        border-color: rgba(${lightPrimary}, 0.15);
+        background: rgba(10, 10, 10, 0.92);
+        border-color: #232323;
       }
 
       html.dark .sidebar:hover {
-        background: rgba(40, 40, 40, 0.7);
-        border-color: rgba(${lightPrimary}, 0.25);
+        background: rgba(14, 14, 14, 0.96);
+        border-color: #2c2c2c;
       }
 
       html.dark .author__avatar img {
-        border-color: rgba(${lightPrimary}, 0.2);
+        border-color: #2a2a2a;
       }
 
       html.dark .sidebar:hover .author__avatar .avatar-spin img {
-        box-shadow: 0 12px 32px rgba(${lightPrimary}, 0.25);
+        box-shadow: 0 12px 32px rgba(0, 0, 0, 0.45);
       }
 
       html.dark .author__name {
-        color: ${lightPrimary} !important;
-        text-shadow: 0 0 10px ${lightPrimary}99, 0 0 20px ${lightPrimary}55 !important;
+        color: ${lightenColor(theme.primary, 18)} !important;
+        text-shadow: none !important;
         font-weight: 800 !important;
-        -webkit-text-fill-color: ${lightPrimary} !important;
+        -webkit-text-fill-color: ${lightenColor(theme.primary, 18)} !important;
       }
 
       html.dark .sidebar:hover .author__name {
-        text-shadow: 0 0 15px ${lightPrimary}dd, 0 0 30px ${lightPrimary}99 !important;
+        text-shadow: none !important;
       }
 
       html.dark .author__bio {
@@ -820,100 +826,110 @@
       }
 
       html.dark .sidebar h3 {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .sidebar h3:before {
-        background: linear-gradient(90deg, ${lightPrimary}, ${lightenColor(lightPrimary, -15)});
+        background: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .sidebar .widget-title {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .sidebar .widget-title strong,
       html.dark .sidebar .widget-title b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .author__urls a {
-        background: ${lightPrimary}14;
-        color: ${lightPrimary};
-        border-color: ${lightPrimary}33;
+        background: #111;
+        color: #e4e4e7;
+        border-color: #27272a;
       }
 
       html.dark .author__urls a:hover {
-        background: linear-gradient(135deg, ${lightPrimary}, ${lightenColor(lightPrimary, -20)});
-        color: #fff;
-        border-color: ${lightPrimary};
-        box-shadow: 0 8px 16px ${lightPrimary}66;
+        background: #1a1a1a;
+        color: #ffffff;
+        border-color: #3a3a3a;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
       }
 
       html.dark .author__urls-wrapper .btn {
-        background: linear-gradient(135deg, ${lightPrimary}, ${lightenColor(lightPrimary, -20)});
-        color: #fff;
-        border-color: ${lightPrimary};
+        background: #111;
+        color: #ffffff;
+        border-color: #2a2a2a;
       }
 
       html.dark .author__urls-wrapper .btn:hover {
-        box-shadow: 0 8px 16px ${lightPrimary}66;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.35);
       }
 
       html.dark .sidebar .nav__list a {
-        color: ${lightSecondary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       html.dark .sidebar .nav__list a:hover {
-        background: rgba(${lightPrimary}, 0.15);
-        color: ${lightPrimary};
-        box-shadow: -2px 0 0 ${lightPrimary};
+        background: #151515;
+        color: ${lightenColor(theme.secondary, 18)};
+        box-shadow: -2px 0 0 #3a3a3a;
       }
 
       html.dark .sidebar strong,
       html.dark .sidebar b {
-        color: ${lightPrimary};
+        color: ${lightenColor(theme.primary, 18)};
       }
 
       /* Dark mode control buttons theme styling */
       html.dark .color-switcher-toggle {
-        border-color: ${lightPrimary} !important;
+        border-color: #2a2a2a !important;
         color: #fff !important;
-        background: linear-gradient(135deg, rgba(${lightPrimary}, 0.2) 0%, rgba(${lightPrimary}, 0.1) 100%) !important;
-        box-shadow: 0 6px 18px rgba(${lightPrimary}, 0.25) !important;
+        background: #111 !important;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35) !important;
       }
 
       html.dark .color-switcher-toggle:hover {
-        background: linear-gradient(135deg, rgba(${lightPrimary}, 0.3) 0%, rgba(${lightPrimary}, 0.2) 100%) !important;
-        box-shadow: 0 4px 12px rgba(${lightPrimary}, 0.35) !important;
+        background: #1a1a1a !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
       }
 
       html.dark .accessibility-toggle {
-        border-color: ${lightPrimary} !important;
+        border-color: #2a2a2a !important;
         color: #fff !important;
-        background: linear-gradient(135deg, rgba(${lightPrimary}, 0.2) 0%, rgba(${lightPrimary}, 0.1) 100%) !important;
-        box-shadow: 0 6px 18px rgba(${lightPrimary}, 0.25) !important;
+        background: #111 !important;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35) !important;
       }
 
       html.dark .accessibility-toggle:hover {
-        background: linear-gradient(135deg, rgba(${lightPrimary}, 0.3) 0%, rgba(${lightPrimary}, 0.2) 100%) !important;
-        box-shadow: 0 4px 12px rgba(${lightPrimary}, 0.35) !important;
+        background: #1a1a1a !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
       }
 
       html.dark .theme-toggle-float {
-        border-color: ${lightPrimary} !important;
+        border-color: #2a2a2a !important;
         color: #fff !important;
-        background: linear-gradient(135deg, rgba(${lightPrimary}, 0.2) 0%, rgba(${lightPrimary}, 0.1) 100%) !important;
-        box-shadow: 0 6px 18px rgba(${lightPrimary}, 0.25) !important;
+        background: #111 !important;
+        box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35) !important;
       }
 
       html.dark .theme-toggle-float:hover {
-        background: linear-gradient(135deg, rgba(${lightPrimary}, 0.3) 0%, rgba(${lightPrimary}, 0.2) 100%) !important;
-        box-shadow: 0 4px 12px rgba(${lightPrimary}, 0.35) !important;
+        background: #1a1a1a !important;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35) !important;
       }
+
     `;
 
     styleEl.textContent = styles;
     console.log('Styles applied to dynamic-color-styles element. Theme primary color:', theme.primary);
+  }
+
+  function hexToRgb(color) {
+    const normalized = color.replace('#', '');
+    const safe = normalized.length === 3
+      ? normalized.split('').map((c) => c + c).join('')
+      : normalized;
+    const num = parseInt(safe, 16);
+    return `${(num >> 16) & 255}, ${(num >> 8) & 255}, ${num & 255}`;
   }
 
   /**
@@ -922,9 +938,9 @@
   function lightenColor(color, percent) {
     const num = parseInt(color.replace("#", ""), 16);
     const amt = Math.round(2.55 * percent);
-    const R = Math.min(255, (num >> 16) + amt);
-    const G = Math.min(255, (num >> 8 & 0x00FF) + amt);
-    const B = Math.min(255, (num & 0x0000FF) + amt);
+    const R = Math.max(0, Math.min(255, (num >> 16) + amt));
+    const G = Math.max(0, Math.min(255, (num >> 8 & 0x00FF) + amt));
+    const B = Math.max(0, Math.min(255, (num & 0x0000FF) + amt));
     return "#" + (0x1000000 + R * 0x10000 + G * 0x100 + B).toString(16).slice(1);
   }
 
@@ -963,7 +979,7 @@
     
     // Apply saved theme on load
     applyColorTheme(savedTheme);
-    
+
     // Mark the current theme button
     colorOptions.forEach(btn => {
       const themeName = btn.dataset.theme;
@@ -993,6 +1009,7 @@
         
         // Apply the new theme
         applyColorTheme(themeName);
+        savedTheme = themeName;
         
         console.log('Theme applied:', themeName);
       });

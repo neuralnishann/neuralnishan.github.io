@@ -1,13 +1,13 @@
 /* Floating dark mode toggle and expanded dark theme overrides */
 
-/* CSS Custom Properties - Neon default colors */
+/* CSS Custom Properties */
 :root {
-  --color-primary: #39ff14;
-  --color-secondary: #ff10f0;
-  --color-accent: #00ffff;
-  --color-light: #7fff00;
-  --color-danger: #ff1493;
-  --color-text-light: #e8f4f8;
+  --color-primary: #d4d4d8;
+  --color-secondary: #a1a1aa;
+  --color-accent: #71717a;
+  --color-light: #f4f4f5;
+  --color-danger: #f87171;
+  --color-text-light: #e4e4e7;
 }
 
 /* Floating button centered vertically on right */
@@ -26,7 +26,7 @@
   height: auto !important;
   padding: 12px 18px !important;
   border-radius: 999px !important;
-  background: linear-gradient(135deg, #ffffff 0%, #f2f4ff 100%) !important;
+  background: #f3f4f6 !important;
   color: #111111 !important;
   border: 2px solid var(--color-primary) !important;
   box-shadow: 0 10px 30px rgba(16,20,30,0.12), 0 2px 6px rgba(102,126,234,0.04) !important;
@@ -77,7 +77,7 @@
 /* make hover accent in light mode to match aesthetic */
 .theme-toggle-float:hover {
   border-color: var(--color-primary);
-  box-shadow: 0 18px 40px rgba(16,20,30,0.16), 0 6px 18px rgba(0,212,255,0.1) inset, 0 4px 12px rgba(102,126,234,0.06);
+  box-shadow: 0 18px 40px rgba(16,20,30,0.16), 0 4px 12px rgba(102,126,234,0.06);
 }
 
 /* Screen-reader only helper */
@@ -118,23 +118,23 @@ html.theme-transition, html.theme-transition * {
 
 /* Basic dark theme variables/overrides - uses CSS custom properties */
 html.dark {
-  background: #0b0b0b;
+  background: #050505;
   color: var(--color-text-light);
   text-shadow: none;
 }
 
 html.dark a { 
-  color: var(--color-primary);
+  color: #f4f4f5;
   text-shadow: none;
   transition: color 0.2s ease;
 }
 
 html.dark a:hover {
-  color: var(--color-secondary);
+  color: #d4d4d8;
 }
 
 html.dark h1, html.dark h2, html.dark h3, html.dark h4, html.dark h5, html.dark h6 {
-  color: var(--color-primary);
+  color: #fafafa;
   text-shadow: none;
 }
 
@@ -143,7 +143,7 @@ html.dark p {
 }
 
 html.dark strong, html.dark b {
-  color: var(--color-primary);
+  color: #fafafa;
   text-shadow: none;
   font-weight: 700;
 }
@@ -156,7 +156,7 @@ html.dark .page__footer,
 html.dark header,
 html.dark .masthead,
 html.dark .page__header {
-  background-color: #0f0f0f;
+  background-color: #090909;
 }
 
 /* Content areas */
@@ -167,31 +167,31 @@ html.dark .content, html.dark .page__content, html.dark .post, html.dark article
 
 /* Code blocks and inline code */
 html.dark code, html.dark pre { 
-  background-color: #000 !important; 
-  color: var(--color-primary) !important;
+  background-color: #0d0d0d !important; 
+  color: #f4f4f5 !important;
   text-shadow: none;
-  border: 1px solid var(--color-primary);
+  border: 1px solid #27272a;
   opacity: 0.8;
 }
 
 /* Buttons and inputs */
 html.dark button, html.dark .btn, html.dark input[type="button"], html.dark input[type="submit"] {
-  background: #1a3a4a; 
-  color: var(--color-primary); 
-  border-color: var(--color-primary);
+  background: #111111; 
+  color: #f4f4f5; 
+  border-color: #2a2a2a;
   text-shadow: none;
   transition: all 0.2s ease;
 }
 
 html.dark button:hover, html.dark .btn:hover, html.dark input[type="button"]:hover, html.dark input[type="submit"]:hover {
-  background: #0ea1c5;
-  color: #fff;
+  background: #1a1a1a;
+  color: #ffffff;
 }
 
 /* Navigation */
 html.dark nav, html.dark .nav, html.dark .site-nav, html.dark .nav-list { background: transparent; }
 html.dark .site-nav a, html.dark .nav a { color: var(--color-text-light); transition: color 0.2s ease; }
-html.dark .site-nav a:hover, html.dark .nav a:hover { color: var(--color-primary); }
+html.dark .site-nav a:hover, html.dark .nav a:hover { color: #ffffff; }
 
 /* Sidebar */
 html.dark .sidebar, html.dark aside { background: transparent; color: var(--color-text-light); }
@@ -201,7 +201,7 @@ html.dark .page__footer, html.dark footer { color: var(--color-text-light); back
 
 /* Blockquote */
 html.dark blockquote { 
-  border-left-color: var(--color-primary); 
+  border-left-color: #2f2f2f; 
   color: var(--color-text-light);
   text-shadow: none;
 }
@@ -217,9 +217,9 @@ html.dark thead {
 }
 
 html.dark thead th {
-  background: #000 !important;
-  color: var(--color-primary) !important;
-  border: 1px solid var(--color-primary) !important;
+  background: #0c0c0c !important;
+  color: #f4f4f5 !important;
+  border: 1px solid #2a2a2a !important;
   opacity: 0.8;
   text-shadow: none;
   font-weight: bold;
@@ -228,15 +228,15 @@ html.dark thead th {
 
 html.dark tbody td {
   color: var(--color-text-light) !important;
-  border: 1px solid var(--color-primary) !important;
+  border: 1px solid #222 !important;
   opacity: 0.7;
   padding: 10px !important;
-  background: #0a0a0a !important;
+  background: #080808 !important;
 }
 
 html.dark tbody tr:hover td {
-  background: rgba(0, 212, 255, 0.08) !important;
-  box-shadow: inset 0 0 10px rgba(0, 212, 255, 0.1);
+  background: #111 !important;
+  box-shadow: inset 0 0 0 1px #1f1f1f;
 }
 
 html.dark tbody tr:nth-child(even) td {
@@ -244,21 +244,21 @@ html.dark tbody tr:nth-child(even) td {
 }
 
 html.dark tbody tr:nth-child(even):hover td {
-  background: rgba(0, 212, 255, 0.08) !important;
+  background: #111 !important;
 }
 
 html.dark table caption {
-  color: var(--color-primary) !important;
+  color: #f4f4f5 !important;
   text-shadow: none;
 }
 
 html.dark table strong {
-  color: var(--color-primary) !important;
+  color: #fafafa !important;
   text-shadow: none;
 }
 
 html.dark table em {
-  color: var(--color-accent) !important;
+  color: #d4d4d8 !important;
 }
 
 /* Lists and list items */
@@ -271,12 +271,12 @@ html.dark li {
 }
 
 html.dark ul li:before {
-  color: var(--color-primary);
+  color: #a1a1aa;
 }
 
 /* Definition lists */
 html.dark dt {
-  color: var(--color-primary);
+  color: #fafafa;
   font-weight: bold;
   text-shadow: none;
 }
@@ -289,7 +289,7 @@ html.dark dd {
 html.dark .page__content h2,
 html.dark .page__content h3,
 html.dark .page__content h4 {
-  color: var(--color-primary);
+  color: #fafafa;
   text-shadow: none;
 }
 
@@ -300,16 +300,16 @@ html.dark .page__content ul li {
 }
 
 html.dark .page__content ul li strong {
-  color: var(--color-primary);
+  color: #fafafa;
   text-shadow: none;
 }
 
 /* Ensure floating button looks good in dark mode */
 html.dark .theme-toggle-float {
-  background: linear-gradient(135deg, #141414 0%, #232323 100%) !important;
+  background: #111111 !important;
   color: var(--color-text-light) !important;
-  border: 2px solid var(--color-primary) !important;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.6), 0 0 18px var(--color-primary)26 inset !important;
+  border: 2px solid #2a2a2a !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.6) !important;
   visibility: visible !important;
   opacity: 1 !important;
   display: flex !important;
@@ -318,9 +318,9 @@ html.dark .theme-toggle-float {
 }
 
 html.dark .theme-toggle-float:hover {
-  box-shadow: 0 18px 44px rgba(0,0,0,0.65), 0 0 18px var(--color-primary)0f inset !important;
+  box-shadow: 0 18px 44px rgba(0,0,0,0.65) !important;
   transform: translateY(-50%) translateY(-6px) scale(1.02) !important;
-  border-color: var(--color-primary) !important;
+  border-color: #3a3a3a !important;
 }
 
 /* Tailwind dark overrides — handle bg-, text-, border- utilities */
@@ -364,9 +364,9 @@ html.dark .notice--info,
 html.dark .notice--warning,
 html.dark .notice--success,
 html.dark .notice--danger {
-  background-color: rgba(15, 15, 15, 0.95) !important;
+  background-color: rgba(12, 12, 12, 0.96) !important;
   color: var(--color-text-light) !important;
-  border: 1px solid var(--color-primary) !important;
+  border: 1px solid #27272a !important;
   opacity: 0.9;
   text-shadow: none;
 }
@@ -377,7 +377,7 @@ html.dark .notice--info h4,
 html.dark .notice--warning h4,
 html.dark .notice--success h4,
 html.dark .notice--danger h4 {
-  color: var(--color-primary) !important;
+  color: #fafafa !important;
   text-shadow: none;
 }
 

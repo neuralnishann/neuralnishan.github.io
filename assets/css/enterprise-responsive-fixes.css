@@ -175,6 +175,19 @@ html.dark .masthead .greedy-nav .hidden-links a {
   padding: 16px !important;
 }
 
+@media (min-width: 1024px) {
+  .sidebar,
+  .sidebar.sticky {
+    top: 78px !important;
+    height: calc(100vh - 94px) !important;
+    max-height: calc(100vh - 94px) !important;
+    overflow-y: auto !important;
+    overflow-x: hidden !important;
+    scrollbar-gutter: stable;
+    padding-bottom: 20px !important;
+  }
+}
+
 .author__urls-wrapper .btn,
 .author__urls-wrapper .btn--inverse,
 .author__urls-wrapper .btn--primary {
@@ -190,6 +203,7 @@ html.dark .masthead .greedy-nav .hidden-links a {
 
 /* Floating controls */
 .theme-toggle-nav,
+.theme-toggle-float,
 .accessibility-toggle,
 .color-switcher-toggle {
   min-width: 154px !important;
@@ -201,6 +215,25 @@ html.dark .masthead .greedy-nav .hidden-links a {
 }
 
 /* Keep dark/accessibility on right */
+.theme-toggle-float {
+  top: auto !important;
+  bottom: 20px !important;
+  right: 22px !important;
+  left: auto !important;
+  transform: none !important;
+  min-width: 132px !important;
+  max-width: calc(100vw - 44px) !important;
+}
+
+.theme-toggle-float:hover,
+.theme-toggle-float:focus,
+.theme-toggle-float:active,
+html.dark .theme-toggle-float:hover,
+html.dark .theme-toggle-float:focus,
+html.dark .theme-toggle-float:active {
+  transform: translateY(-2px) !important;
+}
+
 .theme-toggle-nav {
   right: 22px !important;
   bottom: 20px !important;
@@ -249,6 +282,7 @@ html.dark .masthead .greedy-nav .hidden-links a {
 
 @media (max-width: 640px) {
   .theme-toggle-nav,
+  .theme-toggle-float,
   .accessibility-toggle,
   .color-switcher-toggle {
     min-width: 150px !important;
@@ -267,9 +301,135 @@ html.dark .masthead .greedy-nav .hidden-links a {
     bottom: 16px !important;
   }
 
+  .theme-toggle-float {
+    right: 12px !important;
+    bottom: 16px !important;
+    max-width: calc(100vw - 24px) !important;
+  }
+
   #accessibility-controls,
   .accessibility-controls {
     right: 12px !important;
     bottom: 82px !important;
   }
+}
+
+/* Final dark-mode normalization */
+html.dark {
+  background: #050505 !important;
+  color: #e4e4e7 !important;
+}
+
+html.dark body,
+html.dark .initial-content,
+html.dark .page,
+html.dark .page__inner-wrap,
+html.dark .archive,
+html.dark .page__hero,
+html.dark .page__hero--overlay,
+html.dark .page__footer,
+html.dark footer,
+html.dark .sidebar,
+html.dark aside,
+html.dark .page__content,
+html.dark article,
+html.dark .archive__item,
+html.dark .greedy-nav .hidden-links,
+html.dark .toc {
+  background-color: #090909 !important;
+  background-image: none !important;
+  color: #e4e4e7 !important;
+  border-color: #232323 !important;
+  box-shadow: none !important;
+}
+
+html.dark .page__content,
+html.dark article,
+html.dark .archive__item,
+html.dark .toc,
+html.dark .sidebar {
+  background: #0b0b0b !important;
+}
+
+html.dark a,
+html.dark .sidebar .nav__list a,
+html.dark .greedy-nav .visible-links a,
+html.dark .greedy-nav .hidden-links a,
+html.dark .author__urls a {
+  color: var(--color-primary) !important;
+}
+
+html.dark a:hover,
+html.dark .sidebar .nav__list a:hover,
+html.dark .greedy-nav .visible-links a:hover,
+html.dark .greedy-nav .hidden-links a:hover,
+html.dark .author__urls a:hover {
+  color: var(--color-secondary) !important;
+  background: #151515 !important;
+  background-image: none !important;
+  border-color: #333 !important;
+}
+
+html.dark h1,
+html.dark h2,
+html.dark h3,
+html.dark h4,
+html.dark h5,
+html.dark h6,
+html.dark strong,
+html.dark b,
+html.dark .author__name,
+html.dark .sidebar h3,
+html.dark .archive__item-title,
+html.dark .archive__item-title a {
+  color: var(--color-primary) !important;
+  text-shadow: none !important;
+  -webkit-text-fill-color: currentColor !important;
+}
+
+html.dark .page__content h2,
+html.dark .page__content h2 strong,
+html.dark .page__content h2 b {
+  color: var(--color-secondary) !important;
+}
+
+html.dark .btn,
+html.dark button,
+html.dark input[type="button"],
+html.dark input[type="submit"],
+html.dark input[type="text"],
+html.dark input[type="email"],
+html.dark input[type="password"],
+html.dark textarea,
+html.dark select,
+html.dark .theme-toggle-float,
+html.dark .theme-toggle-nav,
+html.dark .accessibility-toggle,
+html.dark .color-switcher-toggle {
+  background: #111 !important;
+  background-image: none !important;
+  color: #f4f4f5 !important;
+  border-color: #2a2a2a !important;
+  box-shadow: none !important;
+}
+
+html.dark .btn:hover,
+html.dark button:hover,
+html.dark input[type="button"]:hover,
+html.dark input[type="submit"]:hover,
+html.dark .theme-toggle-float:hover,
+html.dark .theme-toggle-nav:hover,
+html.dark .accessibility-toggle:hover,
+html.dark .color-switcher-toggle:hover {
+  background: #1a1a1a !important;
+  border-color: #3a3a3a !important;
+}
+
+.theme-toggle-float,
+.theme-toggle-nav,
+.color-switcher-toggle,
+.accessibility-toggle,
+.author__urls a,
+.sidebar h3:before {
+  background-image: none !important;
 }

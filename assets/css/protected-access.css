@@ -4,8 +4,16 @@
   padding: 2rem;
   border: 1px solid rgba(120, 120, 120, 0.28);
   border-radius: 1.25rem;
+  background: rgba(255, 255, 255, 0.95);
+  box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.1);
+  color: #333;
+}
+
+/* Dark mode overrides */
+html.dark .protected-access {
   background: rgba(18, 18, 18, 0.92);
   box-shadow: 0 1.5rem 3rem rgba(0, 0, 0, 0.22);
+  color: #e8f4f8;
 }
 
 .protected-access__eyebrow {
@@ -15,20 +23,44 @@
   letter-spacing: 0.12em;
   text-transform: uppercase;
   opacity: 0.72;
+  color: #666;
+}
+
+/* Dark mode override for eyebrow */
+html.dark .protected-access__eyebrow {
+  color: #aaa;
 }
 
 .protected-access__title {
   margin: 0 0 0.75rem;
   font-size: clamp(1.6rem, 2vw, 2.2rem);
+  color: #222;
+}
+
+/* Dark mode override for title */
+html.dark .protected-access__title {
+  color: #39ff14;
 }
 
 .protected-access__text {
   margin: 0 0 1rem;
   line-height: 1.7;
+  color: #444;
+}
+
+/* Dark mode override for text */
+html.dark .protected-access__text {
+  color: #e8f4f8;
 }
 
 .protected-access__rules {
   margin: 0 0 1.5rem 1.2rem;
+  color: #555;
+}
+
+/* Dark mode override for rules */
+html.dark .protected-access__rules {
+  color: #ccc;
 }
 
 .protected-access__rules li {
@@ -44,6 +76,12 @@
   margin-bottom: 1rem;
   padding: 0.95rem 1.1rem;
   border-radius: 0.9rem;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Dark mode overrides for countdown and challenge */
+html.dark .protected-access__countdown,
+html.dark .protected-access__challenge {
   background: rgba(255, 255, 255, 0.04);
 }
 
@@ -130,10 +168,16 @@
   padding: 0.9rem 1rem;
   border: 1px solid rgba(120, 120, 120, 0.34);
   border-radius: 0.8rem;
-  background: rgba(0, 0, 0, 0.24);
-  color: inherit;
+  background: rgba(255, 255, 255, 0.8);
+  color: #333;
   font-size: 1rem;
   text-transform: uppercase;
+}
+
+/* Dark mode override for input */
+html.dark .protected-access__input {
+  background: rgba(0, 0, 0, 0.24);
+  color: inherit;
 }
 
 .protected-access__checkbox {
@@ -186,6 +230,11 @@
   padding: 1rem 1.1rem;
   border: 1px solid rgba(120, 120, 120, 0.28);
   border-radius: 1rem;
+  background: rgba(0, 0, 0, 0.02);
+}
+
+/* Dark mode override for protected preview */
+html.dark .protected-preview {
   background: rgba(255, 255, 255, 0.03);
 }
 

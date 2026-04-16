@@ -2,7 +2,7 @@
 .theme-toggle-nav {
   position: fixed;
   z-index: 9999;
-  background: linear-gradient(135deg, #f8fbff 0%, #eef4ff 100%);
+  background: #f3f4f6;
   border: 2px solid #4a5ac1;
   cursor: pointer;
   color: #111;
@@ -28,7 +28,7 @@
 }
 
 .theme-toggle-nav:hover {
-  background: linear-gradient(135deg, #e8ecff 0%, #dfe5ff 100%);
+  background: #e5e7eb;
   box-shadow: 0 4px 12px rgba(74, 90, 193, 0.15);
   transform: translateY(-2px);
 }
@@ -39,14 +39,14 @@
 }
 
 html.dark .theme-toggle-nav {
-  background: linear-gradient(135deg, #1a3a5a 0%, #1a2d4a 100%);
+  background: #111111;
   border-color: #00d4ff;
   color: #e8f4f8;
   box-shadow: 0 6px 18px rgba(0, 212, 255, 0.15);
 }
 
 html.dark .theme-toggle-nav:hover {
-  background: linear-gradient(135deg, #1a2d4a 0%, #132340 100%);
+  background: #1a1a1a;
   box-shadow: 0 4px 12px rgba(0, 212, 255, 0.2);
 }
 

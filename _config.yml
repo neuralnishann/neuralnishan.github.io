@@ -9,14 +9,14 @@ timezone: Europe/Berlin
 author:
   name: S M G Arafat N.
   avatar: /images/pro_pic_6.jpg
-  uri: http://neuralnishan.space
+  uri: https://neuralnishan.space
   email: neuralnishan@protonmail.com
   bio: Azure AI & Data Solutions Architect | Building and Shipping AI at Scale ⚙️@NUL | AI Research
   location: Neural Universe Lab(NUL)
   github: neuralnishan
   linkedin: smnishan
   twitter: neuralnishan
-  url: http://neuralnishan.space
+  url: https://neuralnishan.space
 
 # Analytics
 google_analytics_id:
@@ -29,9 +29,6 @@ collections:
     output: true
     permalink: /:collection/:year/:month/:day/:slug
   projects:
-    output: true
-    permalink: /:collection/:path/
-  publications:
     output: true
     permalink: /:collection/:path/
   achievements:
@@ -72,14 +69,6 @@ defaults:
   - scope:
       path: ""
       type: "projects"
-    values:
-      layout: "single"
-      author_profile: true
-      
-  # Publications
-  - scope:
-      path: ""
-      type: "publications"
     values:
       layout: "single"
       author_profile: true
@@ -137,6 +126,3 @@ exclude:
   - .bundle
   - Gemfile
   - Gemfile.lock
-
-
-
