@@ -140,7 +140,7 @@ Include components in your content:
 1. Create file in `source/_includes/component-name.html`
 2. Use in layouts/posts:
 ```liquid
-{% include component-name.html %}
+{% raw %}{% include component-name.html %}{% endraw %}
 ```
 
 ## 🗂️ Data Management
