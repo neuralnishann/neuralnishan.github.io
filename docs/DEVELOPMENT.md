@@ -131,8 +131,8 @@ Create new CSS file in `assets/css/` and link in `_includes/head.html`:
 
 Include components in your content:
 ```liquid
-{% include hero-section.html %}
-{% include skills-section.html %}
+{% raw %}{% include hero-section.html %}{% endraw %}
+{% raw %}{% include skills-section.html %}{% endraw %}
 ```
 
 ### Creating New Components
